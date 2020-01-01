@@ -2,6 +2,7 @@ import React from "react";
 import HomePage from "./HomePage";
 import AboutPage from "./AboutPage";
 import Header from "./common/Header";
+import CoursesPage from "./CoursesPage";
 
 function App() {
   function getPage() {
@@ -9,6 +10,8 @@ function App() {
 
     if (route === "/about") {
       return <AboutPage />;
+    } else if (route === "/courses") {
+      return <CoursesPage />;
     } else {
       return <HomePage />;
     }
