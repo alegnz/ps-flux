@@ -50,7 +50,7 @@ function CourseForm(props) {
 
 CourseForm.propTypes = {
   course: PropTypes.object.isRequired,
-  onchange: PropTypes.func.isRequired,
+  onChange: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,
   errors: PropTypes.object.isRequired
 };
